@@ -1,10 +1,11 @@
 import React from 'react'
 import HomeContent from '../components/HomeContent'
+import HomeLogin from '../components/HomeLogin'
 
 const Login = () => {
   return (
-    <div>
-        <HomeContent />
+    <div style={{display: "flex", flexDirection: "row"}}>
+      <HomeContent />
     </div>
   )
 }

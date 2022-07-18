@@ -4,7 +4,6 @@ import "../style/Login.css"
 const LoginMenu = () => {
   return (
     <div className='login'>
-        <div className='Login_content'></div>
         <div className='Login_box'>
             <div className='login_page'>
                 <div className='page_input_box'>
