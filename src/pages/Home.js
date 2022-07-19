@@ -1,10 +1,11 @@
 import React from 'react'
 import HomeContent from '../components/HomeContent'
 import HomeLogin from '../components/HomeLogin'
+import "../style/Home.css"
 
 const Login = () => {
   return (
-    <div style={{display: "flex", flexDirection: "row", width: "100%", height: "100%"}}>
+    <div className='container'>
       <HomeContent />
       <HomeLogin />
     </div>
