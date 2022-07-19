@@ -21,8 +21,8 @@ const HomeLogin = () => {
                 <p>See who's committing in<br/>
                    the world right now</p>
                 <span>Join Our Website</span>
-                <button className='signup_button'>Sign up</button>
-                <button className='login_button'>Log in</button>
+                <button className='signup_button'>Login</button>
+                <button className='login_button'>Sign up</button>
             </div>
         </div>
     )

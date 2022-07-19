@@ -1,10 +1,10 @@
 import React from 'react'
-import LoginMenu from '../components/LoginMenu'
+import HomeContent from '../components/HomeContent'
+import SignupMenu from '../components/SignupMenu'
 
 const Login = () => {
   return (
     <div>
-        <LoginMenu />
     </div>
   )
 }

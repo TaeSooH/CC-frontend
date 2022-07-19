@@ -4,8 +4,9 @@ import HomeLogin from '../components/HomeLogin'
 
 const Login = () => {
   return (
-    <div style={{display: "flex", flexDirection: "row"}}>
+    <div style={{display: "flex", flexDirection: "row", width: "100%", height: "100%"}}>
       <HomeContent />
+      <HomeLogin />
     </div>
   )
 }
