@@ -89,3 +89,6 @@
 .signup_bot_link:hover {
     text-decoration: underline; 
 }
+.signup_bot_link:visited {
+    color: blue;
+}
