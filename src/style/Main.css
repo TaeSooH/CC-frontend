@@ -1,4 +1,54 @@
 * {
     margin: 0;
     padding: 0;
+    color: white;
+}
+.main_wrap {
+    width: 100%;
+    height: 100%;
+    background-color: #0d1117;
+}
+.Nav_box {
+    width: 100%;
+    height: 8%;
+    background-color: #161b22;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.Main_icon {
+    margin: 1%;
+}
+.Main_title {
+    margin-left: 4%;
+    font-weight: bold;
+    font-size: 2.5vh;
+}
+.Main_link_bar {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    list-style: none;
+    width: 20%;
+}
+.Main_link_bar div {
+    color: white;
+    font-size: 2vh;
+    font-weight: bold;
+}
+.Main_link_bar div:hover {
+    color: rgb(181, 181, 181);
+    cursor: pointer;
+}
+.Nav_profile {
+    position: relative;
+    left: 49%;
+    width: 3%;
+    border-radius: 50%;
+    cursor: pointer;
+}
+.Nav_profile_detail {
+    position: relative;
+    left: 49.5%;
+    cursor: pointer;
 }
