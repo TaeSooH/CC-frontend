@@ -18,7 +18,7 @@
 }
 .signup_title {
     height: 15%;
-    font-size: 40px;
+    font-size: 5vh;
     font-weight: bold;
     color: white;
     margin-top: 5%;
@@ -32,7 +32,7 @@
     height: 10%;
 }
 .signup_input_box label {
-    font-size: 13px;
+    font-size: 1.8vh;
     padding-top: 2%;
     padding-left: 5%;
     width: 100%;
@@ -65,7 +65,7 @@
     background-color: white;
     color: black;
     font-weight: bold;
-    font-size: 17px;
+    font-size: 2.3vh;
     border-radius: 30px;
     cursor: pointer;
 }
@@ -80,15 +80,14 @@
     width: 50%;
 }
 .signup_bot_text {
-
+    font-size: 2vh;
 }
 .signup_bot_link a {
     font-weight: bold;
     text-decoration: none;
+    color: blue;
+    font-size: 2vh;
 }
 .signup_bot_link:hover {
     text-decoration: underline; 
-}
-.signup_bot_link:visited {
-    color: blue;
 }
