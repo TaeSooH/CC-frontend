@@ -18,7 +18,7 @@ const HomeContent = () => {
 			</li>
 			<li className='content'>
 				<RiNumbersFill className='icon' size='24' color='white'/>
-				<p>See your monthly commits by graph</p>
+				<p>See your commits by graph</p>
 			</li>
 		</div>
   	)

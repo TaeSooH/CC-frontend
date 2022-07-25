@@ -1,7 +1,8 @@
 import React from 'react'
 import "../style/Main.css"
+import Graph from './Graph'
 
-const Graph = () => {
+const GraphBox = () => {
   return (
     <div className='Graph_box_wrap'>
         <div className='Graph_select_menu'>
@@ -9,9 +10,11 @@ const Graph = () => {
           <div>Month</div>
           <div>Week</div>
         </div>
-        <div className='Graph_box_graph'></div>
+        <div className='Graph_box_graph'>
+          <Graph />
+        </div>
     </div>
   )
 }
 
-export default Graph
+export default GraphBox
