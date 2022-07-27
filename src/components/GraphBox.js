@@ -6,7 +6,7 @@ const GraphBox = () => {
   return (
     <div className='Graph_box_wrap'>
         <div className='Graph_select_menu'>
-          <div>All</div>
+          <div>Total</div>
           <div>Month</div>
           <div>Week</div>
         </div>

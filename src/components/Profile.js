@@ -13,7 +13,7 @@ const Profile = () => {
         <span>LLTae2</span>
         <p>알고리즘을 해야 한다고 생각함</p>
         <div className='Profile_follower'>
-          <BsFillPeopleFill className='Profile_icon' size='30' color='gray'/>
+          <BsFillPeopleFill className='Profile_icon' size='3.5vh' color='gray'/>
           <span className='F_number'>15</span>
           <span className='F_font'>followers</span>
           <BsDot />
@@ -21,7 +21,7 @@ const Profile = () => {
           <span className='F_font'>following</span>
         </div>
         <div className='Profile_company'>
-          <BiBuilding className='Profile_icon' size='23' color='gray'/>
+          <BiBuilding className='Profile_icon' size='2.6vh' color='gray'/>
           <p>Busan Software Meister High School</p>
         </div>
       </div>

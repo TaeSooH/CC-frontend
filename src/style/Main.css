@@ -134,6 +134,7 @@
 }
 .Profile_icon {
     margin-right: 3%;
+    
 }
 
 
@@ -182,7 +183,6 @@
     width: 100%;
     height: 95%;
     background-color: #1c2028;
-    margin: 0 auto;
     border-radius: 10px;
 }
 
@@ -193,7 +193,29 @@
     height: 40%;
     border: 1.5px solid #1c2028;
     border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
 }
-
-
-
+.MyCommit_text_box {
+    width: 90%;
+    height: 20%;
+    color: white;
+    text-align: center;
+}
+.MyCommit_text_box p {
+    line-height: 250%;
+    height: 100%;
+    background-color: #a1b5d3;
+}
+.MyCommit_box {
+    width: 90%;
+    height: 70%;
+}
+.MyCommit_innerBox {
+    width: 100%;
+    height: 95%;
+    background-color: #1c2028;
+    border-radius: 10px;
+}
