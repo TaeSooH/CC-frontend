@@ -1,15 +1,17 @@
 import './App.css';
 import { Routes, Route } from "react-router-dom"
 import Home from './pages/Home';
-import Login from './pages/Signup';
+import Signup from './pages/Signup';
 import Main from './pages/Main';
+import Login from './pages/Login';
 
 function App() {
   return (
     <Routes>
       <Route exact path='/' element={<Home />}/>
-      <Route exact path='/signup' element={<Login />}/>
+      <Route exact path='/signup' element={<Signup />}/>
       <Route exact path='/main' element={<Main />}/>
+      <Route exact path='/login' element={<Login />}/>
     </Routes>
   );
 }

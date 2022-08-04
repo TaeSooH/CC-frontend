@@ -1,15 +1,14 @@
 import React from 'react'
 import HomeContent from '../components/HomeContent'
-import HomeSignup from '../components/HomeSignup'
-import "../style/Signup.css"
+import Log from "../components/Login"
 
 const Login = () => {
-  	return (
+  return (
     <div className='container'>
-      	<HomeContent />
-		<HomeSignup />
+        <HomeContent />
+        <Log />
     </div>
-	)
+  )
 }
 
 export default Login
