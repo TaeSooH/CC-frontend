@@ -1,6 +1,6 @@
 import React from 'react'
 
-const Login = () => {  // * className 바꾸는 것부터 시작 *
+const Login = () => {	
   return (
     <div className="signup_form">
 		<p className="signup_title">Login</p>

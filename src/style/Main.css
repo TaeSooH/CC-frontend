@@ -80,7 +80,7 @@
 }
 .Profile_box {
     width: 80%;
-    height: 78%;
+    height: 100%;
     display: flex;
     flex-direction: column;
     align-items: flex-start;
@@ -134,9 +134,29 @@
     font-size: 2vh;
 }
 .Profile_icon {
-    margin-right: 3%;
-    
+    margin-right: 3%; 
 }
+
+
+
+.Commit_in_Profile {
+    width: 100%;
+    height: 30%;
+    background-color: rgb(169, 215, 255);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+.Commit_in_Profile_each_Box {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 20%;
+    font-size: 2.2vh;
+    font-weight: bold;
+    background-color: #21252f;
+}
+
 
 
 .Today_commit_wrap {

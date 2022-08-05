@@ -24,6 +24,28 @@ const Profile = () => {
           <BiBuilding className='Profile_icon' size='2.6vh' color='gray'/>
           <p>Busan Software Meister High School</p>
         </div>
+        <div className='Commit_in_Profile'>
+          <div className='Commit_in_Profile_each_Box'>
+            <p>Total commits : </p>
+            <span>숫자</span>
+          </div>
+          <div className='Commit_in_Profile_each_Box'>
+            <p>This year's commits : </p>
+            <span>숫자</span>
+          </div>
+          <div className='Commit_in_Profile_each_Box'>
+            <p>This week's commits : </p>
+            <span>숫자</span>
+          </div>
+          <div className='Commit_in_Profile_each_Box'>
+            <p>This month's commits : </p>
+            <span>숫자</span>
+          </div>
+          <div className='Commit_in_Profile_each_Box'>
+            <p>Today's commits : </p>
+            <span>숫자</span>
+          </div>
+        </div>
       </div>
     </div>
   )
