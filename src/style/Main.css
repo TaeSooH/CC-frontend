@@ -4,7 +4,7 @@
 }
 .main_wrap {
     width: 100%;
-    height: 130%;
+    height: 150%;
     background-color: #0d1117;
     display: flex;
     flex-direction: row;
@@ -142,19 +142,27 @@
 .Commit_in_Profile {
     width: 100%;
     height: 30%;
-    background-color: rgb(169, 215, 255);
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
+    align-items: center;
+    margin-top: 20%;
 }
 .Commit_in_Profile_each_Box {
     display: flex;
     flex-direction: row;
-    width: 100%;
+    width: 90%;
     height: 20%;
     font-size: 2.2vh;
     font-weight: bold;
-    background-color: #21252f;
+    /* background-color: #21252f; */
+}
+.Commit_in_Profile_each_Box p {
+    line-height: 300%;
+}
+.Commit_in_Profile_each_Box span {
+    line-height: 300%;
+    margin-left: 2%;
 }
 
 
@@ -233,11 +241,21 @@
     color: white;
     text-align: center;
 }
-.MyCommit_text_box p {
+.MyCommit_text {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.MyCommit_text p {
     line-height: 250%;
     height: 100%;
-    font-size: 2.5vh;
-    font-weight: bold;
+    font-size: 2vh;
+}
+.MyCommit_text span {
+    line-height: 250%;
+    height: 100%;
+    font-size: 2vh;
 }
 .MyCommit_box {
     width: 90%;
