@@ -34,11 +34,11 @@ const Profile = () => {
             <span>숫자</span>
           </div>
           <div className='Commit_in_Profile_each_Box'>
-            <p>This week's commits  : </p>
+            <p>This month's commits  : </p>
             <span>숫자</span>
           </div>
           <div className='Commit_in_Profile_each_Box'>
-            <p>This month's commits  : </p>
+            <p>This week's commits  : </p>
             <span>숫자</span>
           </div>
           <div className='Commit_in_Profile_each_Box'>
