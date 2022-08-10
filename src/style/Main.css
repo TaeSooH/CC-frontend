@@ -172,24 +172,35 @@
     color: white;
     width: 90%;
     height: 35vh;
-    border: 1.5px solid #1c2028;
-    border-radius: 10px;
 }
-.Today_commit_box {
+.Today_commit_container {
+    height: 50%;
     position: relative;
-    top: 45%;
+    top: 20%;
     display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: center;
+    border: 1.5px solid #1c2028;
+    border-radius: 10px;
 }
-.Today_commit_box p {
+.Yesterday_commit_box {
+    /* background-color: aliceblue; */
+    width: 50%;
+    height: 100%;
+}
+.Today_commit_box {
+    /* background-color: aqua; */
+    width: 50%;
+    height: 100%;
+}
+/* .Today_commit_box p {
     font-size: 4vh;
 }
 .Today_commit_box span {
     font-size: 4vh;
 
-}
+} */
 
 
 
