@@ -171,12 +171,12 @@
 .Today_commit_wrap {
     color: white;
     width: 90%;
-    height: 35vh;
+    height: 25vh;
 }
 .Today_commit_container {
-    height: 50%;
+    height: 100%;
     position: relative;
-    top: 20%;
+    /* top: 20%; */
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -188,11 +188,26 @@
     /* background-color: aliceblue; */
     width: 50%;
     height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-right: 1px solid #21252f;
+}
+.Yesterday_commit_box span {
+    font-size: 5vh;
 }
 .Today_commit_box {
     /* background-color: aqua; */
     width: 50%;
     height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.Today_commit_box span {
+    font-size: 5vh;
 }
 /* .Today_commit_box p {
     font-size: 4vh;
@@ -206,7 +221,7 @@
 
 .Graph_box_wrap {
     width: 90%;
-    height: 35vh;
+    height: 45vh;
     border: 1.5px solid #1c2028;
     border-radius: 10px;
     display: flex;
