@@ -135,6 +135,7 @@
 .signup_box .signup_button:hover {
     background-color: rgb(41, 41, 41);
     transition: 0.3s;
+    cursor: pointer;
 }
 .signup_box .login_button {
     width: 100%;
@@ -149,4 +150,5 @@
 .signup_box .login_button:hover {
     background-color: rgb(231, 231, 231);
     transition: 0.3s;
+    cursor: pointer;
 }

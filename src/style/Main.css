@@ -194,17 +194,24 @@
     justify-content: center;
     border-right: 1px solid #21252f;
 }
+.Yesterday_commit_box p {
+    margin-top: 5%;
+    font-size: 2.5vh;
+}
 .Yesterday_commit_box span {
     font-size: 5vh;
 }
 .Today_commit_box {
-    /* background-color: aqua; */
     width: 50%;
     height: 100%;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
+}
+.Today_commit_box p {
+    margin-top: 5%;
+    font-size: 2.5vh;
 }
 .Today_commit_box span {
     font-size: 5vh;
@@ -244,10 +251,10 @@
     border: 0.8px solid rgb(76, 76, 76);
     border-radius: 7px;
     text-align: center;
-    line-height: 250%;
+    line-height: 270%;
     color: white;
     font-weight: bold;
-    font-size: 1.7vh;
+    font-size: 2vh;
     cursor: pointer;
 }
 .Graph_select_menu div:hover {
