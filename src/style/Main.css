@@ -24,7 +24,7 @@
 /* Nav 컴포넌트 디자인 */
 .Nav_box {
     width: 100%;
-    height: 5%;
+    height: 7vh;
     background-color: #161b22;
     display: flex;
     flex-direction: row;
@@ -146,7 +146,8 @@
     flex-direction: column;
     justify-content: space-evenly;
     align-items: center;
-    border: 1.5px solid #1c2028;
+    /* border: 1.5px solid #1c2028; */
+    border: 2.5px solid #2c323f;
     border-radius: 15px;
     margin-top: 10%;
 }
@@ -181,7 +182,8 @@
     flex-direction: row;
     align-items: center;
     justify-content: center;
-    border: 1.5px solid #1c2028;
+    /* border: 1.5px solid #1c2028; */
+    border: 2.5px solid #2c323f;
     border-radius: 10px;
 }
 .Yesterday_commit_box {
@@ -192,7 +194,7 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    border-right: 1px solid #21252f;
+    border-right: 2.5px solid #2c323f;
 }
 .Yesterday_commit_box p {
     margin-top: 5%;
@@ -229,7 +231,8 @@
 .Graph_box_wrap {
     width: 90%;
     height: 45vh;
-    border: 1.5px solid #1c2028;
+    /* border: 1.5px solid #1c2028; */
+    border: 2.5px solid #2c323f;
     border-radius: 10px;
     display: flex;
     flex-direction: column;
@@ -269,7 +272,9 @@
 .Graph {
     width: 100%;
     height: 95%;
-    background-color: #21252f;
+    /* background-color: #21252f; */
+    background-color: #353a49;
+    /* background-color: rgb(133, 133, 133); */
     border-radius: 10px;
 }
 
@@ -278,7 +283,8 @@
 .MyCommit_wrap {
     width: 90%;
     height: 35vh;
-    border: 1.5px solid #1c2028;
+    /* border: 2px solid #1c2028; */
+    border: 2.5px solid #2c323f;
     border-radius: 10px;
     display: flex;
     flex-direction: column;
@@ -315,6 +321,7 @@
 .MyCommit_innerBox {
     width: 100%;
     height: 95%;
-    background-color: #21252f;
+    /* background-color: #21252f; */
+    background-color: #353a49;
     border-radius: 10px;
 }
