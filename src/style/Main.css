@@ -50,6 +50,7 @@
     color: white;
     font-size: 2vh;
     font-weight: bold;
+    text-decoration: none;
 }
 .Main_link_bar div:hover {
     color: rgb(181, 181, 181);

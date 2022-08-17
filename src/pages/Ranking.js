@@ -4,6 +4,8 @@ import MonthlyRank from '../components/MonthlyRank'
 import TotallyRank from '../components/TotallyRank'
 import Nav from '../components/Nav'
 import "../style/Ranking.css"
+import TopRanker from '../components/TopRanker'
+import MyRank from '../components/MyRank'
 
 const Ranking = () => {
   return (
@@ -12,17 +14,16 @@ const Ranking = () => {
         <Nav />
       </div>
       <div className='Empty_box'></div>
-      <div className='Each_rank_box'>
-        <p></p>
-        <DailyRank />
-      </div>
-      <div className='Each_rank_box'>
-        <p></p>
-        <MonthlyRank />
-      </div>
-      <div className='Each_rank_box'>
-        <p></p>
-        <TotallyRank />
+      <div className='Rank_box'>
+        <TopRanker />
+        <div className='My_rank_box'>
+          <p></p>
+          <MyRank />
+        </div>
+        <div className='Totally_rank_box'>
+          <p></p>
+          <TotallyRank />
+        </div>
       </div>
     </div>
   )

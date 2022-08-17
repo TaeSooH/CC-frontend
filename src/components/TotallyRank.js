@@ -1,8 +1,11 @@
 import React from 'react'
+import RankUser from './RankUser'
 
 const TotallyRank = () => {
   return (
-    <div>TotallyRank</div>
+    <div className='Commit_league'>
+      <RankUser />
+    </div>
   )
 }
 
