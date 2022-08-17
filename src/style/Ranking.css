@@ -11,6 +11,7 @@
     flex-direction: column;
     height: 100vh;
     width: 100%;
+    background-color: rgb(248, 248, 248);
 }
 
 
@@ -46,19 +47,52 @@
     width: 100%;
     height: 35vh;
     /* background-color: aliceblue; */
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
 }
-
-
-
-
-/* 나의 랭킹만 따로 나타내는 부분 */
-.My_rank_box {
+.Top_title {
     width: 100%;
-    height: 15vh;
-    /* background-color: azure; */
+    height: 10vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: end;
+    font-size: 3vh;
+    margin-top: 2.5%;
+    font-weight: 700;
 }
-.My_rank {
-
+.Top_ranker {
+    background-color: rgb(245, 245, 245);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 20%;
+    height: 80%;
+    margin: 1%;
+    box-shadow: 5px 5px 10px rgb(167, 167, 167);
+}
+.Top_ranker img {
+    width: 30%;
+}
+.Top_ranker p {
+    font-size: 2.5vh;
+    font-weight: 500;
+}
+.Top_ranker span {
+    font-size: 2vh;
+    color: gray;
+}
+.Top_ranker div {
+    background-color: rgb(209, 237, 255);
+    width: 50%;
+    height: 15%;
+    border-radius: 5vh;
+    text-align: center;
+    padding-top: 3%;
+    margin-top: 5%;
 }
 
 
@@ -66,8 +100,8 @@
 /* 유저간의 랭킹을 나타내는 박스 */
 .Totally_rank_box {
     width: 100%;
-    height: 43vh;
-    /* background-color: beige; */
+    height: 48vh;
+    background-color: rgb(207, 226, 255);
 }
 .Commit_league {
 

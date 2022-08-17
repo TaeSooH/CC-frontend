@@ -1,11 +1,8 @@
 import React from 'react'
-import DailyRank from '../components/DailyRank'
-import MonthlyRank from '../components/MonthlyRank'
+import "../style/Ranking.css"
 import TotallyRank from '../components/TotallyRank'
 import Nav from '../components/Nav'
-import "../style/Ranking.css"
 import TopRanker from '../components/TopRanker'
-import MyRank from '../components/MyRank'
 
 const Ranking = () => {
   return (
@@ -15,10 +12,13 @@ const Ranking = () => {
       </div>
       <div className='Empty_box'></div>
       <div className='Rank_box'>
-        <TopRanker />
-        <div className='My_rank_box'>
-          <p></p>
-          <MyRank />
+        <div className='Top_title'>
+          <p>명예의 전당</p>
+        </div>
+        <div className='Top_ranker_box'>
+          <TopRanker />
+          <TopRanker />
+          <TopRanker />
         </div>
         <div className='Totally_rank_box'>
           <p></p>
