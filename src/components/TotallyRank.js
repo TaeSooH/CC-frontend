@@ -5,6 +5,17 @@ const TotallyRank = () => {
   return (
     <div className='Commit_league'>
       <RankUser />
+      <RankUser />
+      <RankUser />
+      <RankUser />
+      <RankUser />
+      <RankUser />
+      <RankUser />
+      <RankUser />
+      <RankUser />
+      <RankUser />
+      <RankUser />
+      <RankUser />
     </div>
   )
 }

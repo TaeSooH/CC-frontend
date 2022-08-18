@@ -11,7 +11,6 @@ const Main = () => {
     <div className='container'>
         <div className='main_wrap'>
             <Nav />
-            <Profile />
             <div className='main_content_wrap'>
               <TodayCommit />
               <GraphBox />

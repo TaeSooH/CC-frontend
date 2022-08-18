@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     border: none;
+    color: white;
 }
 
 
@@ -9,9 +10,9 @@
 .Rank_container {
     display: flex;
     flex-direction: column;
-    height: 100vh;
     width: 100%;
-    background-color: rgb(248, 248, 248);
+    height: auto;
+    background-color: rgb(32, 33, 44);
 }
 
 
@@ -51,6 +52,7 @@
     flex-direction: row;
     align-items: center;
     justify-content: center;
+    padding-bottom: 2%;
 }
 .Top_title {
     width: 100%;
@@ -64,15 +66,14 @@
     font-weight: 700;
 }
 .Top_ranker {
-    background-color: rgb(245, 245, 245);
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
     width: 20%;
-    height: 80%;
+    height: 25vh;
     margin: 1%;
-    box-shadow: 5px 5px 10px rgb(167, 167, 167);
+    box-shadow: 2px 2px 20px rgb(167, 167, 167), -2px -2px 20px rgb(167, 167, 167);
 }
 .Top_ranker img {
     width: 30%;
@@ -86,7 +87,9 @@
     color: gray;
 }
 .Top_ranker div {
-    background-color: rgb(209, 237, 255);
+    background-color: rgb(53, 57, 68);
+    color: white;
+    font-weight: bold;
     width: 50%;
     height: 15%;
     border-radius: 5vh;
@@ -100,11 +103,15 @@
 /* 유저간의 랭킹을 나타내는 박스 */
 .Totally_rank_box {
     width: 100%;
-    height: 48vh;
-    background-color: rgb(207, 226, 255);
+    height: auto;
+    /* background-color: rgb(207, 226, 255); */
+
 }
 .Commit_league {
-
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgb(32, 33, 44);
 }
 
 
@@ -112,18 +119,33 @@
 
 /* 랭킹에 나타나는 유저 박스 */
 .Rank_user_box {
-
+    width: 60%;
+    height: 6vh;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    /* border: 2px solid rgb(39, 43, 48); */
+    box-shadow: 3px 3px 10px gray;
+    border-radius: 100px;
+    margin-bottom: 2%;
 }
 .User_rank {
 
 }
 .User_profile_image {
-
+    width: 25px;
 }
 .User_name {
 
 }
 .User_id {
+
+}
+.User_total_commit {
+
+}
+.User_total_commit_num {
 
 }
 .User_github_address {
